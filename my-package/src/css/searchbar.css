@@ -1,0 +1,17 @@
+.popup{
+        background-color: #fff;
+        position: fixed;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+}
+.search{
+        margin-left: 20px;
+        display: flex;
+}
+
+#submitButton img{
+        margin-top: 10px;
+        width: 50px;
+}

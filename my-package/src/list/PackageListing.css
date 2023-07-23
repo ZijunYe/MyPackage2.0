@@ -1,0 +1,234 @@
+.package{
+    border-radius: 10px;
+    background: #F0F0F0;    
+    margin: 10px;
+    margin-bottom: 30px; 
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    /* padding-left:30px; */
+    padding-right: 120px;
+     
+}
+.package span{
+    font-weight: 800;
+}
+
+.section2, .section3{
+    margin-top: 80px; 
+}
+
+#extendButton{
+   margin-left: 20px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.section1 h1{
+    font-size: 2em;
+}
+/* 
+.packageDetail{
+    display:flex;
+    margin-top: 30px;
+}
+
+.section1, .section2{
+    margin-left: 40px;
+    width: 300px;
+
+}
+
+.section1 div, .section2 div{
+    margin-bottom: 20px;
+}
+
+.package h1{
+    margin-left: 20px;
+}
+
+.pickupDay{
+    margin-right: 15px;
+    margin-top: 50px;
+    align-items: center;
+    float:right; 
+}
+.pickupDay button{
+    text-align: center;
+    border-radius: 2px;
+    width: 110px;
+    height: 24px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #F0F0F0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-weight: 800;
+    font-size: 15px;
+    margin-left: 5px;
+} */
+.countdown{
+    width: 125px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #81172C;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.countdown p{
+    color: #FFF;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+.countdown p span{
+    font-weight: 800;
+    font-size: 64px; 
+    margin-top: 10px;
+}
+
+  /* Modal Button */
+  .modalButton {
+    z-index: -1;
+    padding: 12px 24px;
+  }
+  
+  
+  /* Modal */
+  .overlay {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+  }
+  
+  .modalContainer {
+    max-width: 600px;
+    width: 100%;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background-color: #617568;
+    /* box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75); */
+    border-radius: 10px;
+    z-index: 10000;
+  }
+  .modalRight {
+    width: 100%;
+  }
+  
+  .closeBtn {
+    position: fixed;
+    top: 8px;
+    right: 8px;
+  }
+  
+  .content {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* text-align: center; */
+    margin-top: 3rem;
+    padding: 1rem 2rem;
+  }
+  
+  .btnContainer {
+    display: flex;
+    padding: 1rem 1rem;
+  }
+  .btnContainer button {
+    width: 100%;
+    margin: .5rem;
+    padding: 16px 0;
+    /* border: none; */
+    border: 1px solid #411b57;
+    /* color: #ffffff; */
+  }
+  
+  .btnPrimary {
+    background-color: #411b57;
+    color: white;
+  }
+  
+  .btnOutline {
+    /* background-color: #a76a99; */
+    background-color: white;
+    color: #411b57;
+  }
+  
+  .bold {
+    font-weight: 600;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .modalContainer {
+      flex-direction: column;
+      top: 0;
+      left: 0;
+      transform: none;
+      width: 100%;
+      height: 100vh;
+    }
+    img {
+      width: 100%;
+      max-height: 70vh;
+      object-fit: cover;
+    }
+  
+    .heading {
+      margin: 1rem;
+    }
+  }
+
+
+  .content img{
+    width:20%; 
+    height: 20%;
+    margin-right: 20px;
+  }
+
+  .content h3{
+    color: #FFF;
+    font-weight: 800;
+  }
+
+  .content p{
+    color:#FFF; 
+  }
+
+  .info{
+    display: flex;
+    padding-left: 20px;
+    
+  }
+
+  .info img{
+    margin-top: 5px;
+    width:3%; 
+    height:3%;
+    margin-right: 10px;
+  }
+
+  .info p{
+    color: #FFF;
+    
+  }
+
+  .date{
+    z-index:-50; 
+  }
+
+/* datepicker-custom.css */
+.datePicker{
+    z-index: -9999; /* Set the desired z-index value */
+    /* ... other custom styles if needed */
+    width: 100%;
+    border-radius: 20px !important;
+  }
+  

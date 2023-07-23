@@ -1,0 +1,44 @@
+.tab-bar {
+  display: flex;
+  align-items: center;
+  margin:20px; 
+}
+
+.tab {
+  padding: 10px;
+  font-size: 16px;
+  color: #D7D7D7;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  position: relative;
+}
+
+.tab-content{
+    overflow: hidden;
+} 
+
+.tab::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background-color: transparent;
+  transition: background-color 0.2s ease;
+}
+
+.tab.active {
+  color: #A2998F; /* Change to your desired active tab font color */
+}
+
+.tab.active::after {
+  background-color: #A2998F; /* Change to your desired active tab underline color */
+}
+
+.tab:hover::after {
+  background-color: #ccc; /* Change to your desired tab underline hover color */
+}

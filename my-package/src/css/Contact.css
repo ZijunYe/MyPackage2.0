@@ -1,0 +1,48 @@
+.Contact{
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 5%;
+    min-width: 25%;
+    text-align: center;
+    padding:20px;
+}
+
+.container{
+    border-radius: 5px;
+    border: 1px solid #000; 
+    height: auto;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left:10px;
+}
+
+iframe{
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 3em;
+}
+
+.popup{
+    background-color: #fff;
+    position: fixed;
+    /* top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    z-index: 1000;
+    width: auto;
+    height: auto;   
+    border-radius: 10px;
+    padding: 30px;
+    border: 1px solid #000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.popup-content{
+    padding: 30px;
+}
+.comments-textarea{
+    margin-bottom: 20px;
+}

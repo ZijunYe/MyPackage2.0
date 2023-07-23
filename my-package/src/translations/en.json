@@ -1,0 +1,21 @@
+{
+  "mypackage": "MyPackage",
+  "all": "All",
+  "readyforpickup": "Ready for Pickup",
+  "pickup":"Picked up", 
+  "location": "Location", 
+  "emailAddress":"Email address", 
+  "phoneNumber":"Phone Number", 
+  "operationHour":"Operation Hour", 
+  "address": "141 Louis-Pasteur Private #159, Ottawa, ON K1N 6N5", 
+  "sunday": "Sunday", 
+  "monday":"Monday", 
+  "tuesday":"Tuesday", 
+  "wednesday":"Wednesday", 
+  "thursday":"Thursday", 
+  "friday":"Friday", 
+  "saturday":"Saturday",
+  "closed":"Closed", 
+  "sendMessage":"Send us message"
+}
+  
