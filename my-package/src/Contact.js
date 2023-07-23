@@ -61,7 +61,7 @@ function Contact() {
 
      <div className='container'>
         <h3>{t('emailAddress')}</h3>
-        <p>prs-post@uottawa.ca</p>
+        <p href="https://mail.google.com/mail/u/0/#inbox/FMfcgzGtwMXnwXRGHSHpghbZBvsGJFtC?compose=GTvVlcSGLrfbScKwWsCMvthZHlqBRnjVtsrQLcgmjKxNfZdgPTkXDvfmxLLDKJWZDjhDCdNBbFBbf">prs-post@uottawa.ca</p>
      </div>
 
      <div className='container'>
